@@ -10,8 +10,8 @@ namespace Second
     /// </summary>
     public partial class MainWindow : Window
     {
-        DispatcherTimer dispatcherTimerGoMainMenu = new DispatcherTimer();
-        Random random = new Random();
+        readonly DispatcherTimer dispatcherTimerGoMainMenu = new DispatcherTimer();
+        readonly Random random = new Random();
 
         public MainWindow()
         {
